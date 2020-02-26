@@ -1,0 +1,79 @@
+{
+  "extends": ["airbnb-base", "airbnb/rules/react", "prettier", "prettier/react"],
+  "plugins": ["prettier", "import", "react", "react-native"],
+  "rules": {
+    "react-native/no-unused-styles": 2,
+    "react-native/split-platform-components": 2,
+    "react-native/no-inline-styles": 2,
+    "react-native/no-color-literals": 0,
+
+    "react-native/no-raw-text": 2,
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".js", ".jsx"]
+      }
+    ],
+    "no-console": "off",
+    "spaced-comment": [
+      "error",
+      "always",
+      {
+        "line": {
+          "markers": ["/"],
+          "exceptions": ["-", "+"]
+        },
+        "block": {
+          "markers": ["!"],
+          "exceptions": ["*"],
+          "balanced": true
+        }
+      }
+    ],
+    "react/prop-types": 0,
+    "react/require-default-props": 0,
+    "react/no-multi-comp": 0,
+    "react/destructuring-assignment": 0,
+    "react/no-access-state-in-setstate": 0,
+    "no-underscore-dangle": [
+      "error",
+      {
+        "allow": [
+          "__REDUX_DEVTOOLS_EXTENSION_COMPOSE__",
+          "_allPostsMeta",
+          "__NEXT_REDUX_STORE__",
+          "_id",
+          "__DEV__"
+        ]
+      }
+    ],
+    "no-param-reassign": "off",
+    "arrow-parens": "off",
+    "import/imports-first": ["error"],
+    "import/newline-after-import": "error",
+    "no-plusplus": "off",
+    "no-return-assign": "off",
+    "no-nested-ternary": "off",
+    "no-else-return": "off",
+    "react/no-did-update-set-state": 0,
+    "no-use-before-define": "off"
+  },
+  "globals": {
+    "window": true,
+    "document": true,
+    "localStorage": true,
+    "FormData": true,
+    "FileReader": true,
+    "Blob": true,
+    "navigator": true,
+    "fetch": true,
+    "Audio": true,
+    "alert": true
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "parser": "babel-eslint"
+}
