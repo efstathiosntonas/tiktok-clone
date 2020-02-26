@@ -2,96 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92ea329e-146a-474a-ade6-1151fa61a99b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/tiktok.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metro.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svgs/add_button.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/videos/test_video.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/videos/video1.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/videos/video2.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/videos/video3.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/videos/video4.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/videos/video5.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/videos/video6.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AddNewButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/AddNew.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/Discover.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/Inbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/Profile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/actions/comments/actionTypes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/actions/comments/comments.actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/comments.reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/.buckconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.buckconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/.eslintrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/.flowconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.flowconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/.prettierrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/.watchmanconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.watchmanconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/__tests__/App-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/App-test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/android/app/BUCK" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/BUCK" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/android/app/build_defs.bzl" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build_defs.bzl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/android/app/debug.keystore" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/debug.keystore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/android/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/proguard-rules.pro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/android/app/src/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/android/app/src/main/java/com/tiktok/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/java/com/tiktok/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/android/app/src/main/java/com/tiktok/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/java/com/tiktok/MainApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/android/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/android/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/android/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/android/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/android/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Podfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Podfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/ios/tiktok-tvOS/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/tiktok-tvOS/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/ios/tiktok-tvOSTests/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/tiktok-tvOSTests/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/ios/tiktok.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ios/tiktok.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/ios/tiktok.xcodeproj/xcshareddata/xcschemes/tiktok-tvOS.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/tiktok.xcodeproj/xcshareddata/xcschemes/tiktok-tvOS.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/ios/tiktok.xcodeproj/xcshareddata/xcschemes/tiktok.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/tiktok.xcodeproj/xcshareddata/xcschemes/tiktok.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/ios/tiktok.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/ios/tiktok.xcworkspace/contents.xcworkspacedata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/ios/tiktok/AppDelegate.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/tiktok/AppDelegate.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/ios/tiktok/AppDelegate.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/tiktok/AppDelegate.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/ios/tiktok/Base.lproj/LaunchScreen.xib" beforeDir="false" afterPath="$PROJECT_DIR$/ios/tiktok/Base.lproj/LaunchScreen.xib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/ios/tiktok/Images.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/ios/tiktok/Images.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/ios/tiktok/Images.xcassets/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/ios/tiktok/Images.xcassets/Contents.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/ios/tiktok/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/tiktok/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/ios/tiktok/main.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/tiktok/main.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/ios/tiktokTests/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/tiktokTests/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/ios/tiktokTests/tiktokTests.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/tiktokTests/tiktokTests.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/metro.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Home.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,8 +145,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582733800878</updated>
-      <workItem from="1582733803382" duration="15554000" />
+      <workItem from="1582733803382" duration="19275000" />
     </task>
+    <task id="LOCAL-00001" summary="added FlatList with videos in Home.js, screens, redux">
+      <created>1582752696087</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582752696087</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,10 +181,10 @@
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
     <state x="1525" y="699" key="#podinstall/-1920.324.1920.1080/3840.0.1920.1200/0.0.3840.2160@0.0.3840.2160" timestamp="1582736092117" />
-    <state x="1202" y="506" key="CommitChangelistDialog2" timestamp="1582752641312">
+    <state x="1202" y="506" key="CommitChangelistDialog2" timestamp="1582756485415">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state x="1202" y="506" key="CommitChangelistDialog2/-1920.324.1920.1080/3840.0.1920.1200/0.0.3840.2160@0.0.3840.2160" timestamp="1582752641312" />
+    <state x="1202" y="506" key="CommitChangelistDialog2/-1920.324.1920.1080/3840.0.1920.1200/0.0.3840.2160@0.0.3840.2160" timestamp="1582756485415" />
     <state x="1736" y="994" key="Github.Dialog.Accounts.Choose" timestamp="1582752202988">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
@@ -293,6 +213,10 @@
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
     <state x="1305" y="631" key="SettingsEditor/-1920.324.1920.1080/3840.0.1920.1200/0.0.3840.2160@0.0.3840.2160" timestamp="1582734875614" />
+    <state x="1420" y="752" key="Vcs.Push.Dialog.v2" timestamp="1582752699820">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="1420" y="752" key="Vcs.Push.Dialog.v2/-1920.324.1920.1080/3840.0.1920.1200/0.0.3840.2160@0.0.3840.2160" timestamp="1582752699820" />
     <state x="1363" y="522" width="3640" height="1960" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1582742445361">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>

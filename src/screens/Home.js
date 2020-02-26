@@ -12,6 +12,8 @@ class Home extends Component {
     this.state = {
       playingIndex: 0,
     };
+
+    this.player = {};
   }
 
   renderItem = ({item}) => {
@@ -19,20 +21,27 @@ class Home extends Component {
     return (
       <View style={styles.videoView}>
         <Video
-          fullscreen
           paused={playingIndex !== item.id}
-          preTriggerRatio={0.5}
           repeat
           resizeMode="stretch"
           source={item.video}
+          ref={ref => (this.player[item.id] = ref)}
           style={styles.backgroundVideo}
         />
       </View>
     );
   };
 
-  onViewableItemsChanged = ({changed}) => {
-    this.setState({playingIndex: changed[0].item.id});
+  onViewableItemsChanged = ({changed, viewableItems}) => {
+    this.setState({
+      playingIndex: changed[0].item.id,
+    });
+
+    viewableItems.forEach(item => {
+      if (item.isViewable) {
+        this.player[item.item.id].seek(0, 0);
+      }
+    });
   };
 
   render() {
@@ -41,12 +50,13 @@ class Home extends Component {
         <FlatList
           data={videosArray}
           decelerationRate="fast"
-          keyExtractor={item => item.id}
+          keyExtractor={item => item.id.toString()}
           onViewableItemsChanged={this.onViewableItemsChanged}
+          removeClippedSubviews={false}
           renderItem={this.renderItem}
           showsVerticalScrollIndicator={false}
           snapToAlignment="start"
-          snapToInterval={height + 10}
+          snapToInterval={height + 5}
           viewabilityConfig={{
             waitForInteraction: true,
             viewAreaCoveragePercentThreshold: 100,
