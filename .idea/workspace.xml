@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92ea329e-146a-474a-ade6-1151fa61a99b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Comments/Comments.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Comments/SingleComment.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/AddNew.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/AddNew.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/comments/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/videos/actionTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/comments/comments.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/videos/videos.actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/comments.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/videos.reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/utils.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +73,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/Comments" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -84,6 +96,16 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="debugger" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="debugger" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="podInstall" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -91,17 +113,6 @@
         <script value="podInstall" />
       </scripts>
       <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="podinstall" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="podinstall" />
-      </scripts>
-      <node-interpreter value="project" />
-      <package-manager value="npm" />
       <envs />
       <method v="2" />
     </configuration>
@@ -128,10 +139,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.check-code" />
+        <item itemvalue="npm.prettier" />
+        <item itemvalue="npm.debugger" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.podInstall" />
-        <item itemvalue="npm.podinstall" />
-        <item itemvalue="npm.prettier" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +156,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582733800878</updated>
-      <workItem from="1582733803382" duration="19275000" />
+      <workItem from="1582733803382" duration="43657000" />
     </task>
     <task id="LOCAL-00001" summary="added FlatList with videos in Home.js, screens, redux">
       <created>1582752696087</created>
@@ -154,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582752696087</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added video replay from start when user swipes up/down">
+      <created>1582756520715</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582756520715</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,7 +183,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="added FlatList with videos in Home.js, screens, redux" />
-    <option name="LAST_COMMIT_MESSAGE" value="added FlatList with videos in Home.js, screens, redux" />
+    <MESSAGE value="added video replay from start when user swipes up/down" />
+    <option name="LAST_COMMIT_MESSAGE" value="added video replay from start when user swipes up/down" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -181,10 +200,10 @@
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
     <state x="1525" y="699" key="#podinstall/-1920.324.1920.1080/3840.0.1920.1200/0.0.3840.2160@0.0.3840.2160" timestamp="1582736092117" />
-    <state x="1202" y="506" key="CommitChangelistDialog2" timestamp="1582756485415">
+    <state x="1202" y="506" key="CommitChangelistDialog2" timestamp="1582756515744">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state x="1202" y="506" key="CommitChangelistDialog2/-1920.324.1920.1080/3840.0.1920.1200/0.0.3840.2160@0.0.3840.2160" timestamp="1582756485415" />
+    <state x="1202" y="506" key="CommitChangelistDialog2/-1920.324.1920.1080/3840.0.1920.1200/0.0.3840.2160@0.0.3840.2160" timestamp="1582756515744" />
     <state x="1736" y="994" key="Github.Dialog.Accounts.Choose" timestamp="1582752202988">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
@@ -193,30 +212,30 @@
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
     <state x="1688" y="939" key="Github.ShareDialog/-1920.324.1920.1080/3840.0.1920.1200/0.0.3840.2160@0.0.3840.2160" timestamp="1582752194431" />
-    <state width="3788" height="670" key="GridCell.Tab.0.bottom" timestamp="1582752630628">
+    <state width="3788" height="670" key="GridCell.Tab.0.bottom" timestamp="1582934297968">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state width="3788" height="670" key="GridCell.Tab.0.bottom/-1920.324.1920.1080/3840.0.1920.1200/0.0.3840.2160@0.0.3840.2160" timestamp="1582752630628" />
-    <state width="3788" height="670" key="GridCell.Tab.0.center" timestamp="1582752630624">
+    <state width="3788" height="670" key="GridCell.Tab.0.bottom/-1920.324.1920.1080/3840.0.1920.1200/0.0.3840.2160@0.0.3840.2160" timestamp="1582934297968" />
+    <state width="3788" height="670" key="GridCell.Tab.0.center" timestamp="1582934297959">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state width="3788" height="670" key="GridCell.Tab.0.center/-1920.324.1920.1080/3840.0.1920.1200/0.0.3840.2160@0.0.3840.2160" timestamp="1582752630624" />
-    <state width="3788" height="670" key="GridCell.Tab.0.left" timestamp="1582752630622">
+    <state width="3788" height="670" key="GridCell.Tab.0.center/-1920.324.1920.1080/3840.0.1920.1200/0.0.3840.2160@0.0.3840.2160" timestamp="1582934297959" />
+    <state width="3788" height="670" key="GridCell.Tab.0.left" timestamp="1582934297954">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state width="3788" height="670" key="GridCell.Tab.0.left/-1920.324.1920.1080/3840.0.1920.1200/0.0.3840.2160@0.0.3840.2160" timestamp="1582752630622" />
-    <state width="3788" height="670" key="GridCell.Tab.0.right" timestamp="1582752630626">
+    <state width="3788" height="670" key="GridCell.Tab.0.left/-1920.324.1920.1080/3840.0.1920.1200/0.0.3840.2160@0.0.3840.2160" timestamp="1582934297954" />
+    <state width="3788" height="670" key="GridCell.Tab.0.right" timestamp="1582934297964">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state width="3788" height="670" key="GridCell.Tab.0.right/-1920.324.1920.1080/3840.0.1920.1200/0.0.3840.2160@0.0.3840.2160" timestamp="1582752630626" />
+    <state width="3788" height="670" key="GridCell.Tab.0.right/-1920.324.1920.1080/3840.0.1920.1200/0.0.3840.2160@0.0.3840.2160" timestamp="1582934297964" />
     <state x="1305" y="631" key="SettingsEditor" timestamp="1582734875614">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
     <state x="1305" y="631" key="SettingsEditor/-1920.324.1920.1080/3840.0.1920.1200/0.0.3840.2160@0.0.3840.2160" timestamp="1582734875614" />
-    <state x="1420" y="752" key="Vcs.Push.Dialog.v2" timestamp="1582752699820">
+    <state x="1420" y="752" key="Vcs.Push.Dialog.v2" timestamp="1582756522177">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state x="1420" y="752" key="Vcs.Push.Dialog.v2/-1920.324.1920.1080/3840.0.1920.1200/0.0.3840.2160@0.0.3840.2160" timestamp="1582752699820" />
+    <state x="1420" y="752" key="Vcs.Push.Dialog.v2/-1920.324.1920.1080/3840.0.1920.1200/0.0.3840.2160@0.0.3840.2160" timestamp="1582756522177" />
     <state x="1363" y="522" width="3640" height="1960" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1582742445361">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>

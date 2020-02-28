@@ -1,9 +1,9 @@
 import {applyMiddleware, combineReducers, compose, createStore} from 'redux';
 import {createLogger} from 'redux-logger';
-import comments from './reducers/comments.reducer';
+import videosReducer from './reducers/videos.reducer';
 
 const rootReducer = combineReducers({
-  comments,
+  videos: videosReducer,
 });
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
