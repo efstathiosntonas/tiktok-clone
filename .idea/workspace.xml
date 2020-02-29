@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92ea329e-146a-474a-ade6-1151fa61a99b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Comments/Comments.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Comments/SingleComment.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/AddNew.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/AddNew.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions/comments/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/videos/actionTypes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions/comments/comments.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/videos/videos.actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/comments.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/videos.reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +145,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582733800878</updated>
-      <workItem from="1582733803382" duration="43657000" />
+      <workItem from="1582733803382" duration="44590000" />
     </task>
     <task id="LOCAL-00001" summary="added FlatList with videos in Home.js, screens, redux">
       <created>1582752696087</created>
@@ -172,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582756520715</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="finished test :D">
+      <created>1582934341019</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582934341019</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,7 +180,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="added FlatList with videos in Home.js, screens, redux" />
     <MESSAGE value="added video replay from start when user swipes up/down" />
-    <option name="LAST_COMMIT_MESSAGE" value="added video replay from start when user swipes up/down" />
+    <MESSAGE value="finished test :D" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished test :D" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -200,10 +197,10 @@
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
     <state x="1525" y="699" key="#podinstall/-1920.324.1920.1080/3840.0.1920.1200/0.0.3840.2160@0.0.3840.2160" timestamp="1582736092117" />
-    <state x="1202" y="506" key="CommitChangelistDialog2" timestamp="1582756515744">
+    <state x="1202" y="506" key="CommitChangelistDialog2" timestamp="1582934334823">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state x="1202" y="506" key="CommitChangelistDialog2/-1920.324.1920.1080/3840.0.1920.1200/0.0.3840.2160@0.0.3840.2160" timestamp="1582756515744" />
+    <state x="1202" y="506" key="CommitChangelistDialog2/-1920.324.1920.1080/3840.0.1920.1200/0.0.3840.2160@0.0.3840.2160" timestamp="1582934334823" />
     <state x="1736" y="994" key="Github.Dialog.Accounts.Choose" timestamp="1582752202988">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
@@ -232,10 +229,10 @@
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
     <state x="1305" y="631" key="SettingsEditor/-1920.324.1920.1080/3840.0.1920.1200/0.0.3840.2160@0.0.3840.2160" timestamp="1582734875614" />
-    <state x="1420" y="752" key="Vcs.Push.Dialog.v2" timestamp="1582756522177">
+    <state x="1420" y="752" key="Vcs.Push.Dialog.v2" timestamp="1582934546989">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state x="1420" y="752" key="Vcs.Push.Dialog.v2/-1920.324.1920.1080/3840.0.1920.1200/0.0.3840.2160@0.0.3840.2160" timestamp="1582756522177" />
+    <state x="1420" y="752" key="Vcs.Push.Dialog.v2/-1920.324.1920.1080/3840.0.1920.1200/0.0.3840.2160@0.0.3840.2160" timestamp="1582934546989" />
     <state x="1363" y="522" width="3640" height="1960" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1582742445361">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>

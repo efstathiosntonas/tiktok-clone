@@ -16,9 +16,9 @@ export default function AppContainer() {
       tabBarOptions={{
         activeTintColor: 'gray',
         inactiveTintColor: 'white',
+        safeAreaInset: {top: 'never', bottom: 'always'},
         showLabel: false,
         style: {backgroundColor: 'black'},
-        safeAreaInset: {top: 'never', bottom: 'always'},
       }}
       screenOptions={({route}) => ({
         tabBarIcon: ({focused, color, size}) => {
@@ -26,11 +26,11 @@ export default function AppContainer() {
           if (route.name === 'Home') {
             iconName = focused ? 'home' : 'home-outline';
           } else if (route.name === 'Discover') {
-            iconName = focused ? 'magnify' : 'magnify';
+            iconName = 'magnify';
           } else if (route.name === 'Inbox') {
-            iconName = focused ? 'message' : 'message-outline';
+            iconName = 'message-outline';
           } else if (route.name === 'Profile') {
-            iconName = focused ? 'account' : 'account-outline';
+            iconName = 'account-outline';
           } else if (route.name === 'AddNew') {
             return <AddNewButton />;
           }
