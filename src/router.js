@@ -21,10 +21,10 @@ export default function AppContainer() {
         style: {backgroundColor: 'black'},
       }}
       screenOptions={({route}) => ({
-        tabBarIcon: ({focused, color, size}) => {
+        tabBarIcon: ({color, size}) => {
           let iconName;
           if (route.name === 'Home') {
-            iconName = focused ? 'home' : 'home-outline';
+            iconName = 'home-outline';
           } else if (route.name === 'Discover') {
             iconName = 'magnify';
           } else if (route.name === 'Inbox') {

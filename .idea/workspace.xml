@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92ea329e-146a-474a-ade6-1151fa61a99b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -145,7 +144,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582733800878</updated>
-      <workItem from="1582733803382" duration="44590000" />
+      <workItem from="1582733803382" duration="44673000" />
     </task>
     <task id="LOCAL-00001" summary="added FlatList with videos in Home.js, screens, redux">
       <created>1582752696087</created>
@@ -168,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582934341019</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fixes in tabBar icons, removed 'outlined' icons in some routes">
+      <created>1582935283109</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1582935283109</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,7 +187,8 @@
     <MESSAGE value="added FlatList with videos in Home.js, screens, redux" />
     <MESSAGE value="added video replay from start when user swipes up/down" />
     <MESSAGE value="finished test :D" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished test :D" />
+    <MESSAGE value="fixes in tabBar icons, removed 'outlined' icons in some routes" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes in tabBar icons, removed 'outlined' icons in some routes" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -197,10 +204,10 @@
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
     <state x="1525" y="699" key="#podinstall/-1920.324.1920.1080/3840.0.1920.1200/0.0.3840.2160@0.0.3840.2160" timestamp="1582736092117" />
-    <state x="1202" y="506" key="CommitChangelistDialog2" timestamp="1582934334823">
+    <state x="1202" y="506" key="CommitChangelistDialog2" timestamp="1582935278999">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state x="1202" y="506" key="CommitChangelistDialog2/-1920.324.1920.1080/3840.0.1920.1200/0.0.3840.2160@0.0.3840.2160" timestamp="1582934334823" />
+    <state x="1202" y="506" key="CommitChangelistDialog2/-1920.324.1920.1080/3840.0.1920.1200/0.0.3840.2160@0.0.3840.2160" timestamp="1582935278999" />
     <state x="1736" y="994" key="Github.Dialog.Accounts.Choose" timestamp="1582752202988">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
@@ -229,10 +236,10 @@
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
     <state x="1305" y="631" key="SettingsEditor/-1920.324.1920.1080/3840.0.1920.1200/0.0.3840.2160@0.0.3840.2160" timestamp="1582734875614" />
-    <state x="1420" y="752" key="Vcs.Push.Dialog.v2" timestamp="1582934546989">
+    <state x="1420" y="752" key="Vcs.Push.Dialog.v2" timestamp="1582935293766">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state x="1420" y="752" key="Vcs.Push.Dialog.v2/-1920.324.1920.1080/3840.0.1920.1200/0.0.3840.2160@0.0.3840.2160" timestamp="1582934546989" />
+    <state x="1420" y="752" key="Vcs.Push.Dialog.v2/-1920.324.1920.1080/3840.0.1920.1200/0.0.3840.2160@0.0.3840.2160" timestamp="1582935293766" />
     <state x="1363" y="522" width="3640" height="1960" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1582742445361">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
